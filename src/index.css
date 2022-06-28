@@ -5,7 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(106, 143, 94);
+ 
 }
+
+ .button{
+   margin-left: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  background-color: bisque;
+ }
+
+
+ .bookNumber {
+  margin-left: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+ }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
