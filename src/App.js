@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './App.css';
 import About from './components/About/index';
 import Store from './components/Store/index';
+import 'bootstrap/dist/css/bootstrap.css';
+import { Navbar, navbar } from 'react-bootstrap';
 
 
 function App() {
@@ -16,6 +18,11 @@ function App() {
 
   return (
     <div >
+      <Navbar bg="myRed" variant="dark">
+        <Navbar.Brand>
+          The name of your company here.
+      </Navbar.Brand>
+      </Navbar>
 
       <h1 >Which book would you like to know about.</h1>
       <button className="button" onClick={decrementCount}>subtract one </button>
