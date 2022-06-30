@@ -7,7 +7,7 @@ function About() {
 
     return (
         <section >
-            <img src={fallingEmpire}></img>
+            <img className="" src={fallingEmpire}></img>
             <p>HelloWorld</p>
         </section>
 

@@ -5,6 +5,7 @@ function Store() {
 
     return (
         <section >
+
             <img src={decadent}></img>
 
         </section>

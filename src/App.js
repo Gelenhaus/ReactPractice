@@ -24,7 +24,7 @@ function App() {
       </Navbar.Brand>
       </Navbar>
 
-      <h1 >Which book would you like to know about.</h1>
+      <h1 >This is an interactive web app.</h1>
       <button className="button" onClick={decrementCount}>subtract one </button>
       <p className="bookNumber">{count}</p>
       <button className="button" onClick={incrementCount}>add one </button>
