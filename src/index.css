@@ -34,11 +34,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+img{
+  
+  float: left;
+}
 .romeImages {
   border-radius: 30px;
-  border-left: 4600px;
-  width: 400px;
-  height: 350px;
-  
+  height: 300;
+  width: 350px;
 }
