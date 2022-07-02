@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import './App.css';
 import About from './components/About/index';
 import Store from './components/Store/index';
+import Carousel from './components/Carousel/index';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, navbar } from 'react-bootstrap';
-import decadent from './assets/decadent/decadent.jpeg'
+import decadent from './assets/decadent/decadent.jpeg';
 
 
 function App() {
